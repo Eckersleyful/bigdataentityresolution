@@ -1,0 +1,150 @@
+breed,labrador retriever;size,small;breed_personality,happy
+breed,labrador retriever;breed_size,large;breed_friendliness,happy
+dog_breed,wired hair dachshund;breed_size,large;breed_personality,happy
+dog_breed,labrador retriever;weight,heavy;friendliness,independent
+type,golden retriever;build_type,small;breed_friendliness,independent
+dog_breed,labrador retriever;size,medium;breed_personality,happy
+type,golden;weight,heavy;breed_personality,kind
+dog_breed,wired hair dachshund;weight,medium;friendliness,happy
+type,labrador retriever;breed_size,medium;breed_friendliness,happy
+type,golden;weight,heavy;breed_friendliness,kind
+dog_breed,labrador;breed_size,heavy;breed_friendliness,happy
+dog_breed,labrador retriever;breed_size,small;breed_friendliness,independent
+type,golden;weight,large;breed_personality,independent
+breed,labrador;weight,heavy;breed_friendliness,independent
+type,golden;size,small;breed_friendliness,social
+dog_breed,labrador retriever;breed_size,heavy;breed_personality,friendly
+dog_breed,golden retriever;size,heavy;breed_friendliness,friendly
+dog_breed,wired hair dachshund;build_type,medium;breed_personality,kind
+dog_breed,dachshund;size,large;friendliness,kind
+dog_breed,wired hair dachshund;breed_size,small;friendliness,social
+breed,wired hair dachshund;weight,medium;breed_personality,kind
+breed,labrador;breed_size,small;breed_personality,kind
+type,labrador;breed_size,heavy;breed_personality,social
+type,wired hair dachshund;size,small;breed_friendliness,independent
+breed,labrador;weight,small;friendliness,friendly
+type,golden retriever;size,heavy;friendliness,social
+dog_breed,golden;weight,small;breed_personality,kind
+dog_breed,wired hair dachshund;breed_size,small;breed_friendliness,friendly
+dog_breed,golden retriever;build_type,large;friendliness,social
+breed,golden retriever;size,medium;outgoing,introverted
+type,labrador retriever;breed_size,medium;friendliness,kind
+dog_breed,labrador;weight,medium;breed_personality,friendly
+breed,wired hair dachshund;weight,medium;brain_activity,questionable
+dog_breed,labrador;size,heavy;friendliness,independent
+type,labrador retriever;size,large;breed_personality,happy
+dog_breed,wired hair dachshund;size,large;niceness,evil
+dog_breed,labrador;weight,large;breed_friendliness,independent
+dog_breed,golden;breed_size,heavy;breed_personality,kind
+breed,labrador retriever;bumper,truck;friendliness,friendly
+dog_breed,labrador retriever;weight,medium;breed_personality,happy
+dog_breed,labrador retriever;build_type,large;friendliness,independent
+type,labrador retriever;build_type,large;friendliness,kind
+type,wired hair dachshund;build_type,medium;breed_friendliness,independent
+type,golden retriever;weight,medium;breed_personality,friendly
+dog_breed,golden;brains,massive;breed_friendliness,kind
+dog_breed,golden retriever;breed_size,large;breed_friendliness,kind
+type,dachshund;ear_size,xxlarge;breed_personality,kind
+dog_breed,dachshund;breed_size,small;breed_personality,friendly
+type,wired hair dachshund;build_type,heavy;breed_friendliness,social
+bird_breed,parrot;build_type,small;breed_personality,social
+cat_breed,cat;size,small;breed_personality,social
+planet,alien;breed_size,heavy;friendliness,independent
+taste,cow;build_type,heavy;breed_personality,happy
+dog_breed,golden retriever;build_type,small;breed_personality,kind
+dog_breed,dachshund;weight,heavy;breed_personality,social
+dog_breed,dachshund;size,large;breed_friendliness,social
+dog_breed,golden retriever;weight,medium;breed_personality,kind
+dog_breed,labrador retriever;weight,large;breed_personality,kind
+breed,wired hair dachshund;build_type,small;breed_friendliness,kind
+breed,labrador retriever;size,small;breed_personality,independent
+type,labrador;size,heavy;breed_personality,friendly
+breed,dachshund;size,medium;friendliness,social
+dog_breed,dachshund;build_type,large;breed_personality,friendly
+dog_breed,dachshund;breed_size,heavy;breed_friendliness,social
+type,dachshund;weight,small;friendliness,kind
+breed,wired hair dachshund;build_type,small;breed_personality,independent
+dog_breed,golden retriever;build_type,medium;friendliness,happy
+type,dachshund;weight,medium;breed_friendliness,friendly
+dog_breed,dachshund;size,medium;breed_personality,independent
+dog_breed,dachshund;size,medium;breed_friendliness,independent
+breed,golden retriever;weight,medium;breed_personality,happy
+breed,dachshund;size,medium;breed_friendliness,social
+breed,dachshund;build_type,large;friendliness,kind
+type,golden retriever;size,heavy;friendliness,social
+breed,golden retriever;breed_size,medium;breed_friendliness,happy
+breed,dachshund;weight,large;friendliness,social
+type,dachshund;breed_size,small;friendliness,kind
+dog_breed,wired hair dachshund;weight,heavy;breed_friendliness,friendly
+breed,golden;size,small;breed_personality,friendly
+dog_breed,wired hair dachshund;weight,large;breed_personality,social
+dog_breed,labrador;breed_size,large;breed_friendliness,social
+dog_breed,golden;breed_size,medium;breed_friendliness,kind
+breed,labrador retriever;weight,small;breed_personality,social
+breed,labrador;breed_size,medium;breed_personality,social
+dog_breed,labrador;size,large;breed_friendliness,kind
+breed,golden retriever;size,large;breed_friendliness,friendly
+type,golden;weight,large;breed_personality,friendly
+breed,golden retriever;size,large;breed_personality,independent
+breed,dachshund;size,heavy;breed_personality,friendly
+type,labrador;build_type,large;breed_personality,happy
+dog_breed,wired hair dachshund;breed_size,large;friendliness,friendly
+type,labrador retriever;size,heavy;breed_friendliness,friendly
+type,wired hair dachshund;breed_size,medium;breed_friendliness,friendly
+breed,golden;build_type,small;breed_friendliness,social
+breed,golden;build_type,heavy;breed_friendliness,kind
+type,wired hair dachshund;breed_size,heavy;breed_friendliness,friendly
+breed,labrador;size,small;breed_friendliness,happy
+type,golden;build_type,medium;breed_personality,kind
+breed,dachshund;size,heavy;breed_friendliness,kind
+breed,wired hair dachshund;size,heavy;breed_personality,social
+breed,dachshund;breed_size,medium;breed_personality,social
+breed,golden;breed_size,small;breed_personality,friendly
+dog_breed,golden retriever;build_type,heavy;breed_personality,happy
+dog_breed,labrador;size,heavy;breed_personality,independent
+breed,labrador;build_type,small;breed_personality,kind
+breed,dachshund;weight,heavy;breed_personality,happy
+dog_breed,labrador retriever;build_type,large;friendliness,independent
+dog_breed,labrador retriever;build_type,medium;breed_friendliness,friendly
+type,wired hair dachshund;weight,large;breed_friendliness,happy
+breed,golden;weight,small;breed_personality,friendly
+type,golden retriever;breed_size,medium;breed_personality,friendly
+type,wired hair dachshund;size,large;breed_personality,happy
+breed,labrador;weight,heavy;friendliness,happy
+dog_breed,golden retriever;breed_size,medium;breed_friendliness,social
+dog_breed,dachshund;size,small;breed_personality,social
+dog_breed,golden retriever;build_type,large;breed_personality,happy
+dog_breed,golden retriever;weight,medium;friendliness,friendly
+type,dachshund;weight,small;breed_friendliness,social
+type,labrador retriever;build_type,large;friendliness,friendly
+type,golden retriever;weight,medium;breed_friendliness,kind
+type,labrador retriever;weight,small;friendliness,happy
+breed,golden;weight,small;breed_friendliness,kind
+breed,golden;size,medium;breed_friendliness,happy
+type,dachshund;size,medium;breed_personality,kind
+breed,dachshund;weight,small;breed_friendliness,friendly
+type,golden retriever;build_type,small;breed_friendliness,happy
+dog_breed,golden;weight,medium;friendliness,independent
+type,golden;build_type,heavy;friendliness,independent
+dog_breed,golden;weight,large;breed_friendliness,kind
+dog_breed,dachshund;size,medium;breed_friendliness,independent
+type,dachshund;breed_size,heavy;breed_friendliness,happy
+dog_breed,golden;breed_size,medium;breed_friendliness,kind
+breed,golden;size,heavy;breed_personality,kind
+breed,dachshund;build_type,large;friendliness,happy
+type,wired hair dachshund;build_type,small;friendliness,social
+breed,wired hair dachshund;weight,small;friendliness,social
+breed,golden retriever;size,large;breed_personality,independent
+breed,wired hair dachshund;build_type,large;breed_friendliness,social
+type,golden retriever;build_type,heavy;breed_friendliness,independent
+breed,golden;breed_size,heavy;breed_personality,happy
+dog_breed,labrador retriever;weight,heavy;breed_personality,kind
+breed,golden;weight,small;breed_personality,independent
+type,golden;size,heavy;friendliness,happy
+breed,golden;build_type,heavy;breed_friendliness,independent
+breed,wired hair dachshund;size,large;breed_personality,social
+dog_breed,labrador retriever;weight,medium;breed_friendliness,social
+dog_breed,labrador;breed_size,small;friendliness,happy
+type,golden retriever;build_type,medium;friendliness,happy
+type,labrador;weight,heavy;breed_friendliness,friendly
+dog_breed,labrador retriever;build_type,small;friendliness,kind
