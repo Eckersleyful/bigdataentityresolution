@@ -1,17 +1,28 @@
 import csv
 
-# A class for stuctures of the structure_data.csv, and animals of the animal_data.csv
+# A class for stuctures of the structure_data.csv, and animals of the animal_data.csv. And methods for comparing them.
 class Structure:
-  def __init__(self, location,constructed,name):
-    self.location = location
-    self.constructed = constructed
-    self.name = name
+    def __init__(self, location,constructed,name):
+        self.location = location
+        self.constructed = constructed
+        self.name = name
+
+    def __eq__(self, other):
+        if not isinstance(other,Structure):
+              return NotImplemented
+        return self.location == other.location and self.constructed == other.constructed and self.name == other.name
 
 class Animal:
-  def __init__(self, breed,size,personality):
-    self.breed = breed
-    self.size = size
-    self.personality = personality
+    def __init__(self, breed,size,personality):
+        self.breed = breed
+        self.size = size
+        self.personality = personality
+
+    def __eq__(self, other):
+        if not isinstance(other,Structure):
+              return NotImplemented
+        return self.breed == other.breed and self.size == other.size and self.personality == other.personality
+
 
 # For printing the dictionary
 def printDict(obj):
@@ -62,10 +73,3 @@ def csvToDict(file):
     [myDict.pop(key) for key in remove_list]
 
     return myDict
-
-myDict = csvToDict("animal_data.csv")
-
-
-printDict(myDict)
-
-#print(myDict["Male"][0].car)
