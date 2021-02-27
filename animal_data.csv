@@ -1,0 +1,150 @@
+breed,Aidi;weight,heavy;breed_personality,friendly
+breed,Anglo-Français de Petite Vénerie;breed_size,small;friendliness,happy
+type,Australian Kelpie;breed_size,heavy;friendliness,independent
+dog_breed,Armant;breed_size,medium;breed_friendliness,social
+breed,Bedlington Terrier;size,large;breed_personality,social
+type,Bavarian Mountain Hound;weight,heavy;friendliness,independent
+breed,Australian Stumpy Tail Cattle Dog;build_type,large;breed_personality,friendly
+type,American Pit Bull Terrier;weight,heavy;breed_personality,social
+type,Airedale Terrier;build_type,medium;breed_friendliness,friendly
+dog_breed,Bergamasco Shepherd;weight,small;breed_friendliness,happy
+type,American Pit Bull Terrier;size,large;breed_friendliness,independent
+type,American Staffordshire Terrier;build_type,small;breed_personality,happy
+breed,American Foxhound;breed_size,large;breed_personality,happy
+breed,Azawakh;build_type,heavy;friendliness,friendly
+type,Basset Fauve de Bretagne;build_type,large;friendliness,happy
+type,Afghan Hound;breed_size,medium;friendliness,friendly
+dog_breed,Barbet;weight,large;friendliness,friendly
+dog_breed,Australian Silky Terrier;build_type,heavy;breed_personality,friendly
+type,Bedlington Terrier;size,large;breed_friendliness,social
+breed,American Hairless Terrier;weight,medium;breed_personality,social
+type,American Pit Bull Terrier;build_type,medium;breed_friendliness,kind
+dog_breed,Aidi;size,heavy;breed_personality,social
+breed,Basset Hound;build_type,heavy;breed_friendliness,happy
+dog_breed,Billy;build_type,small;breed_personality,happy
+breed,Bavarian Mountain Hound;breed_size,heavy;breed_personality,friendly
+breed,American Eskimo Dog;breed_size,large;breed_personality,happy
+type,Artois Hound;size,medium;friendliness,happy
+breed,Australian Shepherd;build_type,medium;friendliness,social
+breed,Beagle;weight,heavy;friendliness,happy
+dog_breed,Akita;build_type,heavy;friendliness,happy
+breed,American Water Spaniel;size,heavy;breed_personality,kind
+type,Basset Hound;size,large;breed_friendliness,kind
+type,Bergamasco Shepherd;size,medium;breed_personality,kind
+type,Azawakh;build_type,medium;breed_personality,friendly
+dog_breed,Basset Bleu de Gascogne;weight,medium;breed_friendliness,kind
+type,Belgian Shepherd Dog (Laekenois);size,large;friendliness,kind
+type,Bernese Mountain Dog;size,heavy;breed_personality,happy
+dog_breed,American Bulldog;weight,large;breed_personality,independent
+type,Affenpinscher;build_type,medium;breed_friendliness,kind
+type,American Cocker Spaniel;size,heavy;breed_friendliness,social
+breed,Belgian Shepherd Dog (Malinois);breed_size,medium;breed_friendliness,kind
+dog_breed,Basset Bleu de Gascogne;weight,medium;breed_friendliness,friendly
+type,Belgian Shepherd Dog (Groenendael);breed_size,medium;breed_personality,happy
+breed,Beauceron;weight,small;breed_personality,kind
+breed,American Bulldog;breed_size,large;breed_friendliness,happy
+breed,Ariegeois;size,small;friendliness,happy
+breed,Bakharwal Dog;size,medium;breed_personality,independent
+dog_breed,Beauceron;weight,medium;friendliness,happy
+dog_breed,Alpine Spaniel;weight,small;friendliness,independent
+breed,Beagle;size,medium;breed_personality,kind
+breed,Belgian Shepherd Dog (Groenendael);weight,heavy;friendliness,kind
+breed,Akita;weight,large;breed_personality,friendly
+breed,Alano Español;size,heavy;breed_friendliness,independent
+dog_breed,Billy;build_type,heavy;breed_friendliness,independent
+type,American Cocker Spaniel;weight,large;friendliness,kind
+breed,Australian Terrier;build_type,medium;breed_friendliness,independent
+type,Appenzeller Sennenhund;build_type,large;breed_friendliness,kind
+type,Bavarian Mountain Hound;weight,large;breed_friendliness,social
+type,Alaskan Malamute;build_type,small;breed_personality,happy
+dog_breed,Armant;weight,medium;breed_personality,independent
+breed,Anglo-Français de Petite Vénerie;size,small;breed_personality,happy
+type,American Staffordshire Terrier;build_type,large;breed_personality,happy
+breed,Basset Bleu de Gascogne;breed_size,small;breed_personality,happy
+type,Alpine Dachsbracke;size,small;friendliness,happy
+type,American Bulldog;weight,small;breed_personality,social
+breed,Artois Hound;build_type,small;breed_personality,independent
+type,Beauceron;breed_size,large;breed_personality,independent
+dog_breed,Artois Hound;weight,large;breed_friendliness,happy
+breed,Basset Hound;breed_size,large;breed_friendliness,friendly
+type,American Bulldog;weight,medium;friendliness,independent
+dog_breed,Akita;build_type,large;breed_friendliness,independent
+breed,American Hairless Terrier;weight,small;breed_personality,kind
+dog_breed,Basenji;build_type,heavy;friendliness,kind
+dog_breed,Airedale Terrier;breed_size,small;breed_friendliness,social
+breed,Basque Shepherd Dog;size,small;friendliness,social
+breed,Berger Picard;weight,heavy;breed_personality,kind
+type,Azawakh;build_type,heavy;friendliness,kind
+type,Alpine Dachsbracke;build_type,medium;friendliness,kind
+breed,Anglo-Français de Petite Vénerie;weight,heavy;friendliness,happy
+breed,Beauceron;size,large;breed_personality,independent
+type,Barbet;size,large;breed_friendliness,happy
+breed,Appenzeller Sennenhund;size,heavy;breed_friendliness,happy
+dog_breed,American Hairless Terrier;size,large;breed_friendliness,friendly
+breed,Beagle-Harrier;size,small;breed_personality,kind
+type,Basset Bleu de Gascogne;weight,small;breed_personality,kind
+type,Appenzeller Sennenhund;weight,small;breed_friendliness,kind
+type,Belgian Shepherd Dog (Laekenois);breed_size,small;breed_personality,social
+type,Alano Español;size,large;breed_personality,social
+breed,Australian Shepherd;breed_size,heavy;breed_friendliness,friendly
+breed,Australian Terrier;weight,small;friendliness,happy
+breed,Bernese Mountain Dog;size,medium;breed_friendliness,kind
+type,Ariege Pointer;weight,small;breed_personality,independent
+type,Basenji;weight,large;breed_friendliness,happy
+breed,Berner Laufhund;build_type,medium;breed_friendliness,independent
+type,Belgian Shepherd Dog (Malinois);build_type,heavy;breed_friendliness,friendly
+breed,Bedlington Terrier;size,medium;friendliness,friendly
+breed,Bearded Collie;build_type,small;friendliness,social
+dog_breed,Australian Stumpy Tail Cattle Dog;breed_size,heavy;breed_friendliness,social
+type,American Eskimo Dog;build_type,medium;friendliness,happy
+dog_breed,Basque Shepherd Dog;size,heavy;breed_friendliness,social
+dog_breed,American Cocker Spaniel;size,heavy;breed_friendliness,kind
+dog_breed,Alaskan Malamute;size,small;breed_personality,kind
+breed,Alpine Dachsbracke;size,large;friendliness,social
+dog_breed,Australian Cattle Dog;size,heavy;breed_personality,social
+type,American Cocker Spaniel;weight,heavy;breed_personality,friendly
+breed,Alpine Spaniel;breed_size,medium;breed_personality,happy
+type,Barbet;weight,heavy;breed_personality,social
+dog_breed,Barbet;breed_size,heavy;breed_friendliness,kind
+type,Alaskan Malamute;size,heavy;breed_personality,happy
+dog_breed,Berger Picard;weight,large;breed_friendliness,happy
+breed,Australian Terrier;breed_size,medium;breed_friendliness,kind
+breed,Australian Kelpie;size,medium;breed_personality,social
+dog_breed,Berger Blanc Suisse;weight,heavy;friendliness,friendly
+dog_breed,American Foxhound;breed_size,heavy;breed_personality,happy
+breed,Armant;size,medium;friendliness,friendly
+breed,Australian Shepherd;weight,large;breed_friendliness,friendly
+dog_breed,Bergamasco Shepherd;size,large;breed_personality,independent
+type,Ariege Pointer;weight,large;breed_personality,independent
+type,Australian Silky Terrier;size,heavy;breed_friendliness,happy
+type,Armenian Gampr dog;size,small;breed_friendliness,social
+dog_breed,Anglo-Français de Petite Vénerie;weight,small;breed_personality,kind
+breed,Bernese Mountain Dog;build_type,small;breed_friendliness,happy
+dog_breed,Azawakh;size,medium;breed_friendliness,kind
+type,Appenzeller Sennenhund;breed_size,small;friendliness,independent
+type,Basset Fauve de Bretagne;breed_size,medium;breed_friendliness,happy
+breed,Afghan Hound;weight,heavy;breed_friendliness,friendly
+breed,American Pit Bull Terrier;weight,small;breed_personality,kind
+breed,Barbet;size,large;breed_personality,social
+breed,Alaskan Malamute;size,small;breed_personality,happy
+type,American Pit Bull Terrier;size,large;breed_personality,kind
+dog_breed,American Hairless Terrier;build_type,medium;breed_personality,kind
+type,American Bulldog;weight,small;breed_friendliness,social
+type,American Pit Bull Terrier;build_type,small;friendliness,kind
+type,Belgian Shepherd Dog (Malinois);size,heavy;breed_friendliness,independent
+breed,Basset Bleu de Gascogne;breed_size,medium;breed_personality,friendly
+dog_breed,American Hairless Terrier;build_type,heavy;breed_friendliness,happy
+type,American Hairless Terrier;weight,small;breed_friendliness,independent
+type,Akbash Dog;size,large;friendliness,happy
+type,Alano Español;breed_size,large;breed_friendliness,independent
+type,Beagle-Harrier;build_type,small;breed_friendliness,kind
+breed,Affenpinscher;weight,large;friendliness,independent
+breed,Artois Hound;weight,large;breed_personality,independent
+breed,Australian Stumpy Tail Cattle Dog;breed_size,small;breed_friendliness,friendly
+dog_breed,Appenzeller Sennenhund;build_type,medium;friendliness,social
+dog_breed,Australian Kelpie;breed_size,small;breed_friendliness,friendly
+dog_breed,Australian Terrier;build_type,small;breed_personality,kind
+type,Bakharwal Dog;build_type,heavy;breed_personality,happy
+type,Belgian Shepherd Dog (Malinois);weight,heavy;friendliness,friendly
+type,Appenzeller Sennenhund;weight,medium;friendliness,social
+type,Alano Español;build_type,medium;breed_friendliness,independent
