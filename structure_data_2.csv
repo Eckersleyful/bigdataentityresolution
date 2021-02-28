@@ -1,58 +1,89 @@
-﻿located at,Barnett;construction,1918;building_name,Southern Globe
-located at,Barnett;constructed at,1555;name,African temple
-located at,Canary;built,1762;building,Russian rock
-located at,Canary;constructed,1555;building,Southern Globe
-located at,Canary;construction,1999;building_name,Maj Tahal
-located at,Canary;built,875;name,Maj Tahal
-located at,Canary;construction,1984;name,Southern Globe
-located at,Delaware;built,1555;name,Very big palace
-located at,Delaware;built,1999;name,Very big palace
-located at,Donald;construction,1123;name,Chinese palace
-located at,Eastlawn;constructed,1918;building,Chinese palace
-located at,Golf Course;constructed,0;building,Russian rock
-located at,Golf Course;built,1123;building_name,Huge Castle
-located at,Golf Course;construction,1555;building_name,Russian rock
-located at,Hayes;built,0;building_name,Lakeuden risti
-located at,Hayes;constructed,972;name,Asian thing
-located at,Hayes;constructed at,1000;name,Lakeuden risti
-located at,Hooker;built,875;building_name,Russian rock
-located at,Hooker;constructed,1555;name,Asian thing
-located at,Hooker;construction,875;name,Huge Castle
-located at,Hooker;built,1762;name,Very big palace
-located at,Lakewood Gardens;built,0;building,Asian thing
-located at,Lakewood Gardens;constructed at,0;building_name,Huge Castle
-located at,Lakewood Gardens;constructed at,1918;building_name,Southern Globe
-located at,Lakewood Gardens;constructed,1123;name,Lakeuden risti
-located at,New Castle;construction,972;building,Asian thing
-located at,New Castle;constructed at,1999;building,Chinese palace
-located at,New Castle;construction,1999;building,Chinese palace
-located at,New Castle;built,972;building_name,Southern Globe
-located at,New Castle;constructed,1984;building_name,Very big palace
-located at,Oxford;built,875;building_name,African temple
-located at,Oxford;construction,1555;building_name,Huge Castle
-located at,Oxford;constructed,0;name,Southern Globe
-located at,Petterle;constructed,0;building,Very big palace
-located at,Petterle;built,875;building_name,Chinese palace
-located at,Petterle;construction,1234;name,Lakeuden risti
-located at,Sachs;construction,0;building,Lakeuden risti
-located at,Sachs;built,1984;building_name,Chinese palace
-located at,Sachtjen;constructed,1555;building,Lakeuden risti
-located at,Schiller;construction,0;building,Russian rock
-located at,Schiller;construction,1918;building,Very big palace
-located at,Schiller;construction,1123;building_name,Lakeuden risti
-located at,Schiller;constructed at,1000;name,Chinese palace
-located at,Schiller;constructed,1555;name,Southern Globe
-located at,School;constructed,0;building,Maj Tahal
-located at,School;construction,1000;building_name,Very big palace
-located at,School;constructed at,1762;name,Asian thing
-located at,South;construction,1000;building,Very big palace
-located at,South;constructed at,1555;name,Asian thing
+﻿located at,Barnett;construction,1123;building,Southern Globe
+located at,Delaware;built,1234;name,Chinese palace
+located at,Delaware;constructed at,1984;name,Southern Globe
+located at,Donald;constructed,1234;building_name,Russian rock
+located at,Donald;constructed,972;building_name,Lakeuden risti
+located at,Donald;construction,972;building,Chinese palace
+located at,Donald;built,0;building_name,Chinese palace
+located at,Donald;constructed,972;building_name,Asian thing
+located at,Eastlawn;built,1123;name,Very big palace
+located at,Eastlawn;constructed at,1123;building,Asian thing
+located at,Eastlawn;construction,1234;building,Huge Castle
+located at,Eastlawn;built,1123;name,Huge Castle
+located at,Eastlawn;construction,1555;name,Very big palace
+located at,Golf Course;constructed at,0;building_name,Southern Globe
+located at,Golf Course;construction,1234;name,Huge Castle
+located at,Golf Course;constructed,1123;name,Huge Castle
+located at,Golf Course;constructed,1984;building_name,Very big palace
+located at,Golf Course;constructed,1762;name,Asian thing
+located at,Golf Course;constructed,875;name,Chinese palace
+located at,Hayes;construction,1234;building,Maj Tahal
+located at,Hayes;built,875;name,Chinese palace
+located at,Hayes;construction,972;building,Very big palace
+located at,Hayes;constructed at,1762;building,Lakeuden risti
+located at,Hayes;constructed,972;building_name,Russian rock
+located at,Hooker;built,875;building_name,Lakeuden risti
+located at,Hooker;construction,972;name,Very big palace
+located at,Hooker;constructed at,1762;building_name,Russian rock
+located at,Knutson;constructed,1984;building,Chinese palace
+located at,Knutson;built,1918;building_name,Southern Globe
+located at,Knutson;construction,1762;building,Southern Globe
+located at,Lakewood Gardens;constructed at,1918;building_name,Russian rock
+located at,Lakewood Gardens;built,1999;building_name,African temple
+located at,Lakewood Gardens;built,1984;name,Russian rock
+located at,Lakewood Gardens;built,1234;building,Asian thing
+located at,Marcy;constructed at,1123;building_name,Asian thing
+located at,Marcy;built,1123;building,Huge Castle
+located at,Marcy;constructed,1123;building_name,African temple
+located at,New Castle;construction,0;building,Maj Tahal
+located at,New Castle;constructed at,1000;name,Lakeuden risti
+located at,New Castle;constructed at,1762;building_name,Southern Globe
+located at,Oxford;constructed,1918;name,Lakeuden risti
+located at,Oxford;built,1123;building_name,Maj Tahal
+located at,Oxford;constructed,1123;building_name,Huge Castle
+located at,Oxford;construction,1555;building_name,Southern Globe
+located at,Oxford;constructed at,1234;name,Very big palace
+located at,Petterle;constructed,1123;building,Lakeuden risti
+located at,Petterle;construction,1984;building_name,Asian thing
+located at,Petterle;construction,1234;building_name,African temple
+located at,Sachs;built,1918;name,African temple
+located at,Sachs;built,1999;name,African temple
+located at,Sachs;construction,1123;building_name,African temple
+located at,Sachs;constructed at,1984;building,African temple
+located at,Sachtjen;constructed at,1234;building,Lakeuden risti
+located at,Sachtjen;construction,1123;name,Very big palace
+located at,Sachtjen;constructed,972;building_name,Chinese palace
+located at,Sachtjen;constructed,972;building,Russian rock
+located at,Sachtjen;constructed,0;name,Very big palace
+located at,Schiller;built,1984;building_name,Very big palace
+located at,Schiller;construction,1999;building_name,Southern Globe
+located at,School;construction,1984;building,African temple
+located at,School;construction,1999;building,Russian rock
+located at,School;constructed at,1555;building_name,Very big palace
+located at,School;construction,1984;name,Huge Castle
+located at,School;construction,1000;name,Chinese palace
 located at,South;constructed,0;name,Asian thing
-located at,Sugar;constructed at,1918;building_name,Chinese palace
-located at,Sugar;built,1555;building_name,Maj Tahal
-located at,Surrey;constructed,972;building_name,Maj Tahal
-located at,Vahlen;construction,1234;building,Huge Castle
-located at,Vahlen;built,1999;building,Southern Globe
-located at,Washington;construction,1918;building_name,Asian thing
-located at,Washington;built,875;name,Chinese palace
-located at,Washington;construction,875;name,Russian rock
+located at,South;constructed at,1000;building_name,African temple
+located at,South;built,1123;building,Very big palace
+located at,South;constructed,875;name,African temple
+located at,Sugar;built,1555;building_name,Southern Globe
+located at,Surrey;constructed,875;building,Huge Castle
+located at,Surrey;constructed at,972;building,Southern Globe
+located at,Surrey;construction,875;building,Chinese palace
+located at,Surrey;constructed at,1234;building_name,Asian thing
+located at,Vahlen;built,972;building_name,Maj Tahal
+located at,Vahlen;constructed,1123;name,Chinese palace
+located at,Vahlen;constructed,1123;name,Maj Tahal
+located at,Vahlen;construction,1234;building_name,Chinese palace
+located at,Vahlen;built,1984;building,Asian thing
+located at,Washington;constructed at,1555;building_name,African temple
+located at,Washington;built,0;name,African temple
+located at,Washington;built,1918;building_name,Asian thing
+located at,Washington;constructed at,1234;building,Huge Castle
+located at,Washington;constructed at,875;building_name,Southern Globe
+located at,Washington;built,1555;building,Huge Castle
+located at,Washington;constructed,875;building_name,Very big palace
+located at,Washington;constructed at,1984;building_name,Huge Castle
+located at,Welch;constructed,1555;building_name,Huge Castle
+located at,Welch;built,1000;name,African temple
+located at,Welch;constructed at,1984;building_name,African temple
