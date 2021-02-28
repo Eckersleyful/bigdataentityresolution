@@ -1,7 +1,7 @@
 from csv_functions import open_csv
 from dict_functions import *
 from similarity_functions import jaccard
-from graph_building import create_blocking_graph
+from graph_building import *
 import time
 import itertools
 
@@ -44,6 +44,7 @@ def transitional_closure_clustering(similarity_dict):
     current_cluster_index = 0
     clusters = {}
     found_pointers = []
+
     for pair_key in similarity_dict:
         
 
@@ -59,17 +60,17 @@ def transitional_closure_clustering(similarity_dict):
                 clusters[current_cluster_index] = found_pointers
                 current_cluster_index += 1
                 found_pointers = []
-             
-    
+               
     return clusters
+
 def is_in_cluster(current_pair, clusters):
     for key in clusters:
         #print(clusters[key], current_pair)
         if current_pair in clusters[key]:
             
             return True
-    
     return False
+
 def find_pointer_pairs(found_pointers, temp_dict, current_pair):
     for pair in temp_dict:
         compared_pair = (pair, temp_dict[pair])
@@ -185,7 +186,16 @@ def main():
     token_blocks = create_token_blocks(cluster_sets, merged_dict)
     #this is a tuple, 0 is nodes and 1 edges
     blocking_graph = create_blocking_graph(token_blocks) 
+    graph_nodes, graph_edges = blocking_graph[0], blocking_graph[1]
     print(len(blocking_graph[0]), len(blocking_graph[1]))
+    common_blocks_scheme = calculate_common_blocks_scheme(graph_edges, token_blocks)
+    jaccard_blocks_scheme = calculate_jaccard_blocks_scheme(graph_edges, token_blocks)
+    print("Common block scheme before pruning", len(common_blocks_scheme), "edges")
+    print("Jaccard scheme before pruning", len(jaccard_blocks_scheme), "edges")
+    weight_edge_pruned_common_edges = weight_edge_pruning(common_blocks_scheme)
+    weight_edge_pruned_jaccard_edges = weight_edge_pruning(jaccard_blocks_scheme)
+    print("Common block after pruning", len(weight_edge_pruned_common_edges), "edges")
+    print("Jaccard scheme after pruning", len(weight_edge_pruned_jaccard_edges), "edges")
 if __name__ == "__main__":
     main()
 
