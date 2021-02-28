@@ -1,6 +1,5 @@
 def objects_to_dict(object_list):
     new_dict = {}
-    print(len(object_list))
     for structure in object_list:
         attribute_pairs = structure.get_key_value_pairs()
         for attribute_pair in attribute_pairs:

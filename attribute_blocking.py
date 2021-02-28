@@ -162,6 +162,7 @@ def remove_useless_blocks(token_blocks):
     useless_blocks = []
     for key in token_blocks:
         if len(token_blocks[key]) == 1:
+            print("found useless block")
             useless_blocks.append(key)
 
     for key in useless_blocks:
@@ -177,27 +178,36 @@ def main():
     structure_att_dict_2 = objects_to_dict(structure_list_2)
     #find the most similar attribute pairs between the entities
     similarity_dict = find_similar_attribute(structure_att_dict, structure_att_dict_2)
-    print("old lens", len(structure_att_dict), len(structure_att_dict_2))
+
     #compute clusters based on transitive closure of the attribute pairs
     clusters = transitional_closure_clustering(similarity_dict)
     merged_dict = merge_dicts(structure_att_dict, structure_att_dict_2)
-    print("new len", len(merged_dict))
+
     cluster_sets = create_cluster_sets(clusters)
     token_blocks = create_token_blocks(cluster_sets, merged_dict)
+    remove_useless_blocks(token_blocks)
+
     #this is a tuple, 0 is nodes and 1 edges
     graph_nodes, graph_edges = create_blocking_graph(token_blocks) 
 
 
-    common_blocks_scheme = calculate_common_blocks_scheme(graph_edges, token_blocks)
+    #common_blocks_scheme = calculate_common_blocks_scheme(graph_edges, token_blocks)
     jaccard_blocks_scheme = calculate_jaccard_blocks_scheme(graph_edges, token_blocks)
-    cardinality_pruned_nodes = calculate_cardinality_node_pruning(graph_nodes, graph_edges, jaccard_blocks_scheme)
-    print("Common block scheme before pruning", len(common_blocks_scheme), "edges")
-    print("Jaccard scheme before pruning", len(jaccard_blocks_scheme), "edges")
-    weight_edge_pruned_common_edges = weight_edge_pruning(common_blocks_scheme)
-    weight_edge_pruned_jaccard_edges = weight_edge_pruning(jaccard_blocks_scheme)
-    print("Common block after average weight pruning", len(weight_edge_pruned_common_edges), "edges")
-    print("Jaccard scheme after average weight pruning", len(weight_edge_pruned_jaccard_edges), "edges")
-    #Prune jaccard edges
+    cardinality_pruned_edges = calculate_cardinality_node_pruning(graph_nodes, graph_edges, jaccard_blocks_scheme)
+   # print("Common block scheme before pruning", len(common_blocks_scheme), "edges")
+    print("Jaccard scheme before pruning:", len(jaccard_blocks_scheme), "edges")
+    #weight_edge_pruned_common_edges = weight_edge_pruning(common_blocks_scheme)
+    cardinality_and_weight_edge_pruned_jaccard_edges = weight_edge_pruning(cardinality_pruned_edges, jaccard_blocks_scheme)
+    #print("Common block after average weight pruning", len(weight_edge_pruned_common_edges), "edges")
+    print("Jaccard scheme after average weight and cardinality pruning:", len(cardinality_and_weight_edge_pruned_jaccard_edges), "edges")
+    #keep only the edges that are not None-type after edge weight pruning
+    good_edges = remove_bad_edges(cardinality_and_weight_edge_pruned_jaccard_edges)
+    #create blocks based on the pruned edge graph
+    #One block is a nodes directed edges pointed at it
+
+    result_blocks = get_directed_graph_blocks(good_edges)
+    
+    
 
 if __name__ == "__main__":
     main()
