@@ -1,11 +1,14 @@
 import itertools
+import time 
+import math
 
 def create_blocking_graph(blocks):
     #first we create the nodes
     graph_nodes = []
     edges = []
     for block in blocks:
-        for some_entity in block:
+        for some_entity in blocks[block]:
+
             if some_entity not in graph_nodes:
                 graph_nodes.append(some_entity)
     
@@ -22,7 +25,7 @@ def create_blocking_graph(blocks):
             #make sure that the edge is a pair and that its not found before
             if new_edge not in edges and len(new_edge) == 2:
                 edges.append(new_edge)
-    return (graph_nodes, edges)
+    return graph_nodes, edges
 
 def calculate_common_blocks_scheme(edges, blocks):
     common_weighted_edges = {}
@@ -73,3 +76,32 @@ def get_average_weight_of_edges(weighted_edges):
     for edge in weighted_edges:
         edge_weight_sum += weighted_edges[edge]
     return edge_weight_sum / len(weighted_edges.keys())
+
+def get_node_neighbors(node, edges, weighted_edges):
+    #list of tuples where 0 is 
+    list_of_neighbor_edges = []
+    current_edge_index = 0
+    for edge in edges:
+        if node == list(edge)[0] or node == list(edge)[1]:
+           print("found neighbor")
+           list_of_neighbor_edges.append((current_edge_index, weighted_edges[current_edge_index]))
+        current_edge_index += 1    
+    return list_of_neighbor_edges
+
+    
+def calculate_neighbor_k(node_neighbors):
+    return int(math.ceil(0.1*len(node_neighbors)))
+def calculate_cardinality_node_pruning(nodes, edges, weighted_edges):
+    new_directed_edges = []
+    print(len(nodes))
+    for node in nodes:
+        #get all neighbouring edges for a node and their weights as a list of tuples
+        node_neighbors = get_node_neighbors(node, edges, weighted_edges)
+        #sort the neighboring edges of the node by their weight
+        sorted_neighbor_weights = sorted(node_neighbors, key = lambda weigh: weigh[1], reverse = True)
+
+        #calculate k-value
+        k_value = calculate_neighbor_k(node_neighbors)
+        #select k elements from the sorted edges
+        k_ranked_node_neighbors = sorted_neighbor_weights[:k]
+        

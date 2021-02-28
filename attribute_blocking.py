@@ -185,17 +185,20 @@ def main():
     cluster_sets = create_cluster_sets(clusters)
     token_blocks = create_token_blocks(cluster_sets, merged_dict)
     #this is a tuple, 0 is nodes and 1 edges
-    blocking_graph = create_blocking_graph(token_blocks) 
-    graph_nodes, graph_edges = blocking_graph[0], blocking_graph[1]
-    print(len(blocking_graph[0]), len(blocking_graph[1]))
+    graph_nodes, graph_edges = create_blocking_graph(token_blocks) 
+
+
     common_blocks_scheme = calculate_common_blocks_scheme(graph_edges, token_blocks)
     jaccard_blocks_scheme = calculate_jaccard_blocks_scheme(graph_edges, token_blocks)
+    cardinality_pruned_nodes = calculate_cardinality_node_pruning(graph_nodes, graph_edges, jaccard_blocks_scheme)
     print("Common block scheme before pruning", len(common_blocks_scheme), "edges")
     print("Jaccard scheme before pruning", len(jaccard_blocks_scheme), "edges")
     weight_edge_pruned_common_edges = weight_edge_pruning(common_blocks_scheme)
     weight_edge_pruned_jaccard_edges = weight_edge_pruning(jaccard_blocks_scheme)
-    print("Common block after pruning", len(weight_edge_pruned_common_edges), "edges")
-    print("Jaccard scheme after pruning", len(weight_edge_pruned_jaccard_edges), "edges")
+    print("Common block after average weight pruning", len(weight_edge_pruned_common_edges), "edges")
+    print("Jaccard scheme after average weight pruning", len(weight_edge_pruned_jaccard_edges), "edges")
+    #Prune jaccard edges
+
 if __name__ == "__main__":
     main()
 
